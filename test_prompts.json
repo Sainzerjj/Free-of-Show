@@ -1,0 +1,47 @@
+[
+    {
+        "prompt": "A dog and a cat and a banana",
+        "phrases": [
+            "dog",
+            "cat",
+            "banana"
+        ],
+        "entities": [
+            [
+                0,
+                1
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                6,
+                7
+            ]
+        ],
+        "original_boxes": [
+            [0.09, 0.16, 0.48, 0.54], [0.56, 0.25, 0.92, 0.58], [0.32, 0.62, 0.74, 0.94]
+        ]
+    },
+    {
+        "prompt": "A photo of a dog with an apple on the head",
+        "phrases": [
+            "dog",
+            "apple"
+        ],
+        "entities": [
+            [
+                3,
+                4
+            ],
+            [
+                6,
+                7
+            ]
+        ],
+        "original_boxes": [
+            [0.09, 0.16, 0.48, 0.54], [0.56, 0.25, 0.92, 0.58]
+        ]
+    }
+]
