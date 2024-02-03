@@ -1,4 +1,5 @@
 import os 
+import torch
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 from lavis.models import load_model_and_preprocess
 import torch
